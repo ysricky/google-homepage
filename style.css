@@ -21,6 +21,11 @@ body {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: gray;
+}
+
 nav {
     grid-area: nav;
 }
@@ -41,10 +46,13 @@ ul {
 
 .app-profile {
     background-color: #4285f4;
-    color: white;
     padding: 10px 15px;
     border-radius: 2px;
     font-weight: 900;
+}
+
+.app-profile > a {
+    color: white;
 }
 
 .main {
@@ -90,7 +98,6 @@ input {
     margin: 0 0.5em;
     padding: 10px 15px;
     background-color: rgba(128, 128, 128, 0.084);
-    color: gray;
     border-radius: 3px;
 }
 
