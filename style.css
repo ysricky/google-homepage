@@ -121,5 +121,83 @@ hr {
     margin-left: auto;
 }
 
+@media only screen and (max-width: 700px) {
+
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+        grid-template-rows: 0.1fr 1fr 0.2fr;
+        grid-template-areas: 
+        "nav nav nav"
+        ". main ."
+        "footer footer footer";
+        align-items: center;
+    }
+
+    img {
+        width: 250px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    .push-right {
+        margin: 0;
+    }
+
+    .foot-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .foot-btn > li {
+        margin: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        font-size: 10px;
+    }
+
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+        grid-template-rows: 0.1fr 1fr 0.2fr;
+        grid-template-areas: 
+        "nav nav nav"
+        ". main ."
+        "footer footer footer";
+        align-items: center;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    .push-right {
+        margin: 0;
+    }
+
+    .foot-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .foot-btn > li {
+        margin: 8px;
+    }
+
+}
+
 
 
